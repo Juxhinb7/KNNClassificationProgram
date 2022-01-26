@@ -67,7 +67,7 @@ public class KNNClassifier implements MLFittable, MLPredictable {
     public double predict(double[][] xyd) {
 
         // Check the size of the array
-        if (xyd.length != 3) throw new IllegalArgumentException(String.format(ARRAYERROR, 2));
+        if (xyd.length != 3) throw new IllegalArgumentException(String.format(ARRAYERROR, 3));
 
         // Check the size of the subarrays if they match
         if (xyd[0].length != xyd[1].length && xyd[0].length != xyd[2].length) {
