@@ -30,7 +30,7 @@ public class Main {
         // At the end it returns the output (or rather class) that the input feature belongs to.
         double[][] fitdata = classifier.fit(90, dataset);
         double result = classifier.predict(fitdata);
-        System.out.println(result);
+        System.out.println("Predicted class: " + result);
 
     }
 }
