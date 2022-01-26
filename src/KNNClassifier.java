@@ -19,7 +19,7 @@ public class KNNClassifier implements MLFittable, MLPredictable {
     // Initialization of the closestNeighbors array
     public KNNClassifier(int k) {
         this.k = k;
-        closestNeighbors = new double[k][k];
+        closestNeighbors = new double[k][3];
     }
 
 
