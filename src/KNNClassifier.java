@@ -2,7 +2,7 @@
    In the meantime there is no testing involved to measure the accuracy of the model :P
    Perhaps soon ;) */
 
-public class KNNClassifier implements MLFittable, MLPredictable {
+public class KNNClassifier implements MLTrainable {
     // K value: number of neighbors that vote what the new data entry will be classified as.
     int k;
     public double[][] closestNeighbors;
